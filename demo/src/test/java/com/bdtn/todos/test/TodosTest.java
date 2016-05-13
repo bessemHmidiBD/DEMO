@@ -19,7 +19,7 @@ public class TodosTest {
 	
 	@Inject
 	TodosEndPoint todosEndPoint;
-	
+	 
 	@Test 
 	public void testGetAllTodos() {
 		List<Todos> result=todosEndPoint.getAll();
