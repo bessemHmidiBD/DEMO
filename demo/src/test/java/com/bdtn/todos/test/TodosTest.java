@@ -16,11 +16,11 @@ import com.bdtn.todos.service.TodosEndPoint;
 @RunWith(CdiRunner.class)
 public class TodosTest {  
 
-	
+	//comment
 	@Inject
 	TodosEndPoint todosEndPoint;
 	 
-	@Test 
+	@Test
 	public void testGetAllTodos() {
 		List<Todos> result=todosEndPoint.getAll();
 		
