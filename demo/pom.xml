@@ -46,14 +46,12 @@
 			<build>
 
 				<plugins>
-
-
-					<plugin>
+		<plugin>
 
 						<groupId>org.wildfly.plugins</groupId>
 						<artifactId>wildfly-maven-plugin</artifactId>
 						<version>1.1.0.Alpha7</version>
-						 <configuration> <hostname>localhost</hostname> <port>10000</port> 
+						 <configuration> <hostname>localhost</hostname> <port>10000</port> </configuration> 
 							<!-- <username>root</username> <password>admin</password> </configuration> -->
 
 						<executions>
@@ -68,7 +66,10 @@
 							</execution>
 
 						</executions>
+						
 					</plugin>
+
+			
 				</plugins>
 
 			</build>
