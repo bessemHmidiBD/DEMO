@@ -1,0 +1,25 @@
+<html ng-app="demo">
+
+<body>
+
+<h1>{{title}}</h1>
+
+
+<div ng-controller="TodosCtrl">
+
+
+<ul><li ng-repeat="t in allTodos">
+{{t.title}}
+</li></ul>
+<label>title:</label>
+<input ng-model="newTodos.title">
+
+<button ng-click=add(newTodos)>add</button>
+</div>
+
+<script type="text/javascript"src="bower_components/angular/angular.min.js"></script>
+
+<script type="text/javascript"src="js/main.js"></script>
+</body>
+
+</html>

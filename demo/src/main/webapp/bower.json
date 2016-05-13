@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "authors": [
+    "bessem.hmidi <bessem.hmidi.perso@gmail.com>"
+  ],
+  "description": "demo for bd france",
+  "main": "main.js",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "javaee"
+  ],
+  "license": "MIT",
+  "homepage": "www.google.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
