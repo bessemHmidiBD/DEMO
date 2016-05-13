@@ -27,7 +27,7 @@ public class TodosEndPoint implements Serializable{
 	public void init(){
 		allTodos=new ArrayList<>(Arrays.asList(new Todos("tache1"),new Todos("tache2")));
 		
-	}
+	} 
 	
 	@GET @Produces(MediaType.APPLICATION_JSON)
 	public List<Todos> getAll(){
