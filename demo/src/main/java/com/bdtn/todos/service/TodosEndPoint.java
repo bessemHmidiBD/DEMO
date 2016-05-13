@@ -17,7 +17,7 @@ import javax.ws.rs.core.MediaType;
 import com.bdtn.todos.domain.Todos;
 
 @Path("/TODOS")
-@SessionScoped
+
 public class TodosEndPoint implements Serializable{
 
 	List<Todos> allTodos;
